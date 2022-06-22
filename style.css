@@ -18,6 +18,7 @@ li {
 body {
     background: var(--secondary);
     overflow-x: hidden;
+    font-family: Rubik-Regular;
 }
 
 .button {
@@ -45,6 +46,10 @@ input, textarea {
 } 
 
 /* fonts */
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url(font/Rubik.ttf);
+}
 
 /* mobile style */
 
